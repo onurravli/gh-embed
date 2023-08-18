@@ -1,9 +1,9 @@
-import GitHub from "./GitHub";
+import GitHubProfileCard from "./GithubProfileCard";
 
 function App() {
     return (
         <>
-            <GitHub username="onurravli" />
+            <GitHubProfileCard username="onurravli" withCommitGraph />
         </>
     );
 }
